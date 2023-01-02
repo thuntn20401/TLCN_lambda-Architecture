@@ -21,10 +21,9 @@ docker exec kafka kafka-topics --create --topic tags-data --partitions 1 --repli
 docker exec kafka kafka-topics --create --topic users-data --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:2181
 <br/>
 ## Run Kafka Producer
-python3 kafka_producer_tags.py 
-<br/>
-python3 kafka_producer_questions.py  
-python3 kafka_producer_users.py
+python3 kafka_producer_tags.py <br/>
+python3 kafka_producer_questions.py  <br/>
+python3 kafka_producer_users.py <br/>
 
 ## Run Spark Streaming
 docker exec spark-master /spark/bin/spark-submit --packages "org.apache.spark:spark-sql-kafka-0-10_2.12:3.0.1,com.datastax.spark:spark-cassandra-connector_2.12:3.0.1,com.datastax.cassandra:cassandra-driver-core:4.0.0" stream/stream_questions.py
@@ -32,6 +31,8 @@ docker exec spark-master /spark/bin/spark-submit --packages "org.apache.spark:sp
 docker exec spark-master /spark/bin/spark-submit --packages "org.apache.spark:spark-sql-kafka-0-10_2.12:3.0.1,com.datastax.spark:spark-cassandra-connector_2.12:3.0.1,com.datastax.cassandra:cassandra-driver-core:4.0.0" stream/stream_tags.py
 <br/>
 docker exec spark-master /spark/bin/spark-submit --packages "org.apache.spark:spark-sql-kafka-0-10_2.12:3.0.1,com.datastax.spark:spark-cassandra-connector_2.12:3.0.1,com.datastax.cassandra:cassandra-driver-core:4.0.0" stream/stream_users.py
+<br/>
+docker exec spark-master /spark/bin/spark-submit --packages "com.datastax.spark:spark-cassandra-connector_2.12:3.0.1,com.datastax.cassandra:cassandra-driver-core:4.0.0" stream/questions.py
 
 # Run app
 python3 app.py
