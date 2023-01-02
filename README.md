@@ -15,7 +15,7 @@ docker exec kafka kafka-topics --create --topic users-data --partitions 1 --repl
 <br/>
 ## Run Kafka Producer
 python3 kafka_producer_tags.py 
-python3 kafka_producer_questions.py  
+python3 kafka_producer_questions.py  <br/>
 python3 kafka_producer_users.py
 
 ## Run Spark Streaming
