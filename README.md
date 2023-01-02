@@ -1,5 +1,5 @@
 # TLCN-lambda-Architecture
-Đề tài: TÌM HIỂU KIẾN TRÚC LAMBDA CHO PHÂN TÍCH DỮ LIỆU VÀ ỨNG DỤNG
+Đề tài: TÌM HIỂU KIẾN TRÚC LAMBDA CHO PHÂN TÍCH DỮ LIỆU VÀ ỨNG DỤNG <br/>
 Sinh viên thực hiện: <br/>
 Lê Thị Thanh Phương 19133046 <br/>
 Nguyễn Thị Nhả Thư  19133054 <br/>
