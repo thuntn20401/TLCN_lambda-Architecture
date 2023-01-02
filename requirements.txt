@@ -1,0 +1,5 @@
+cassandra-driver==3.25.0
+findspark==2.0.1
+py4j==0.10.9.5
+pyspark==3.0.1
+kafka-python

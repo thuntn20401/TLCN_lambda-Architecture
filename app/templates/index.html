@@ -1,0 +1,51 @@
+<html>
+<head>
+   <title>{{title}}</title>
+</head>
+<body>
+   {% if user %}
+   <h1>Hello,
+{% for num in displayname%}
+ {{num}}
+{% endfor %}
+</h1>
+   {% else %}
+   <h1>Hello, Insight Fellow!</h1>
+   {% endif %}
+   <br />
+<div>
+<div class="userprofile" align="left">
+<h3> Upvotes</h3>
+
+{% for num in upvotes %}
+     {{num}}
+   {% endfor %}
+
+<h3> Downvotes</h3>
+{% for num in downvotes %}
+     {{num}}
+   {% endfor %}
+
+<h3> Reputation</h3>
+{% for num in reputation%}
+      {{num}}
+   {% endfor %}
+<h3> Favorite Votes </h3>
+{% for num in favorite_votes %}
+{{num}}
+{% endfor %}
+	</div>
+<div class="questions" align="right">
+<h3>Recommended Questions</h3>
+{% for num in questions %}
+      <br>{{num}}
+   {% endfor %}
+</div>
+<div class="trendingtags" align="left">
+<h3>Trending Tags</h3>
+   {% for num in tag_list %}
+      <br>{{num}}
+   {% endfor %}
+</div>
+</body>
+</html>
