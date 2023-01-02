@@ -1,5 +1,5 @@
 # TLCN-lambda-Architecture
-Đề tài: Tìm hiểu kiến trúc lambda cho xử lý dữ liệu và ứng dụng <br/>
+Đề tài: TÌM HIỂU KIẾN TRÚC LAMBDA CHO PHÂN TÍCH DỮ LIỆU VÀ ỨNG DỤNG
 Sinh viên thực hiện: <br/>
 Lê Thị Thanh Phương 19133046 <br/>
 Nguyễn Thị Nhả Thư  19133054 <br/>
