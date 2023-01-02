@@ -1,8 +1,8 @@
 # TLCN-lambda-Architecture
-Đề tài: Tìm hiểu kiến trúc lambda cho xử lý dữ liệu và ứng dụng
-Sinh viên thực hiện: 
-Lê Thị Thanh Phương 19133046
-Nguyễn Thị Nhả Thư  19133054
+Đề tài: Tìm hiểu kiến trúc lambda cho xử lý dữ liệu và ứng dụng <br/>
+Sinh viên thực hiện: <br/>
+Lê Thị Thanh Phương 19133046 <br/>
+Nguyễn Thị Nhả Thư  19133054 <br/>
 
 # Lambda Architecture
 ![image](https://user-images.githubusercontent.com/92160581/210227004-c3c2e123-7469-4c16-95a1-8a554860237c.png)
