@@ -8,7 +8,7 @@ Nguyễn Thị Nhả Thư  19133054 <br/>
 ![image](https://user-images.githubusercontent.com/92160581/210227004-c3c2e123-7469-4c16-95a1-8a554860237c.png)
 
 Lambda Architecture implementation using Kafka for stream ingestion, Spark for batch and stream processing, HDFS and Cassandra for storage and querying, Flask for live visualization, and Docker for deployment.
-# Run dokcer deploy
+# Run docker deploy
 docker-compose up <br/>
 
 # Run Batch
